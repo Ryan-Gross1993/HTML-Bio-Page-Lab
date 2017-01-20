@@ -1,0 +1,81 @@
+body {
+  margin:0;
+  padding:0;
+}
+
+.jumbotron {
+  margin-top: -20px;
+}
+
+h4 {
+  font-size: 1.2em;
+}
+
+img {
+  border-radius: 240px;
+}
+
+#answer {
+  padding-top: 10px;
+  font-weight:400;
+  font-family: 'Noto Sans Kannada', sans-serif;
+}
+
+.page-header {
+  border-width: 0px;
+}
+
+@media only screen and (max-width:600px) {
+  .img-fluid {
+    max-width:60%;
+  }
+
+  #favorite-things {
+    padding-top:15px;
+  }
+
+  #answer {
+    font-size:1.7em;
+    padding-bottom:15px;
+  }
+
+  .favorite {
+    font-size: 1.5em;
+
+  }
+}
+
+
+@media only screen and (min-width:601px) {
+
+  .jumbotron {
+    max-width: 80%;
+    margin: 0 auto;
+  }
+
+  .img-fluid {
+    max-width:40%;
+  }
+
+  #skills {
+    font-size: 1.7em;
+  }
+
+  h3 {
+    font-size:2.3em;
+  }
+
+  .favorite {
+    border-radius: 10px;
+    padding: 15 px;
+    font-size: 1.9em;
+  }
+
+  #favorite-things {
+    padding-top: 20px;
+  }
+
+  #answer {
+    font-size: 2.1em;
+  }
+}
